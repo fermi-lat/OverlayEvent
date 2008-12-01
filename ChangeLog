@@ -1,0 +1,31 @@
+------------------------------------------------------------
+User: usher  Mon Dec  1 11:21:53 PST 2008
+OverlayEvent
+
+Log Message:
+Initial import of the Overlay TDS data classes
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0r0
+		
+N OverlayEvent/.cvsignore
+N OverlayEvent/cmt/NMake
+N OverlayEvent/cmt/requirements
+N OverlayEvent/cmt/.cvsignore
+N OverlayEvent/src/mainpage.h
+N OverlayEvent/src/OverlayEventModel.cpp
+N OverlayEvent/src/test/testmain.cxx
+N OverlayEvent/doc/release.notes
+N OverlayEvent/OverlayEvent/GemOverlay.h
+N OverlayEvent/OverlayEvent/AcdOverlay.h
+N OverlayEvent/OverlayEvent/EventOverlay.h
+N OverlayEvent/OverlayEvent/CalOverlay.h
+N OverlayEvent/OverlayEvent/SrcOverlay.h
+N OverlayEvent/OverlayEvent/OverlayEventModel.h
+N OverlayEvent/OverlayEvent/TkrOverlay.h
+
+No conflicts created by this import
+
+    *
