@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: usher  Sun Dec  7 09:01:39 PST 2008
-OverlayEvent/OverlayEvent
-
-Modified Files:
-	TkrOverlay.h 
-Log Message:
-Added explicit clear to TkrOverlay destructor
-    *
-------------------------------------------------------------
 User: usher  Mon Dec  1 11:21:53 PST 2008
 OverlayEvent
 
