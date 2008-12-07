@@ -2,7 +2,7 @@
 *
 * @author Leon Rochester
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OerlayEvent/OverlayEvent/TkrOverlay.h,v 1.00 2008/08/15 04:47:49 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/TkrOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 */
 
 #ifndef Event_TkrOverlay_H
@@ -62,7 +62,10 @@ public:
     };
 
     //! Destructor
-    virtual ~TkrOverlay() {};
+    virtual ~TkrOverlay() 
+    {
+        clear();
+    }
 
     //! Retrieve pointer to class defininition structure
     virtual const CLID& clID()    const { return TkrOverlay::classID(); }
