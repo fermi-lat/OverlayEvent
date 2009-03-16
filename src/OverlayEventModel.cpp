@@ -1,5 +1,5 @@
 // File and Version Information:
-// $Header: /nfs/slac/g/glast/ground/cvs/Event/src/OverlayEventModel.cpp,v 1.0 2008/10/21 19:32:27 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/src/OverlayEventModel.cpp,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 
 #define _OverlayEventModel_CPP_
 
@@ -23,4 +23,5 @@ std::string OverlayEventModel::Overlay::AcdOverlayCol = OverlayEventModel::Overl
 std::string OverlayEventModel::Overlay::TkrOverlayCol = OverlayEventModel::Overlay::EventOverlay + "/TkrOverlayCol";
 std::string OverlayEventModel::Overlay::CalOverlayCol = OverlayEventModel::Overlay::EventOverlay + "/CalOverlayCol";
 std::string OverlayEventModel::Overlay::GemOverlay    = OverlayEventModel::Overlay::EventOverlay + "/GemOverlay";
+std::string OverlayEventModel::Overlay::PtOverlay     = OverlayEventModel::Overlay::EventOverlay + "/PtOverlay";
 
