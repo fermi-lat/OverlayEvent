@@ -1,24 +1,4 @@
 ------------------------------------------------------------
-User: usher  Mon Mar 16 10:19:45 PDT 2009
-OverlayEvent/src
-
-Modified Files:
-	OverlayEventModel.cpp 
-Log Message:
-Adding data object to contain overlay event Pt parameters
-    *
-------------------------------------------------------------
-User: usher  Mon Mar 16 10:19:44 PDT 2009
-OverlayEvent/OverlayEvent
-
-Modified Files:
-	OverlayEventModel.h 
-Added Files:
-	PtOverlay.h 
-Log Message:
-Adding data object to contain overlay event Pt parameters
-    *
-------------------------------------------------------------
 TAG
 Tag name: GlastRelease-15-50-10, operation: add
 Package: OverlayEvent
