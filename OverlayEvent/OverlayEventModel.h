@@ -1,4 +1,4 @@
-// $Id: OverlayEventModel.h,v 1.0 2008/10/21 19:30:54 usher Exp $
+// $Id: OverlayEventModel.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 
 #ifndef _OverlayEventModel_h
 #define _OverlayEventModel_h
@@ -56,6 +56,7 @@ public:
         static std::string TkrOverlayCol;
         static std::string CalOverlayCol;
         static std::string GemOverlay;
+        static std::string PtOverlay;
     };
 
     OverlayEventModel() {}
