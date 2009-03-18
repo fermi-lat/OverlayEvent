@@ -1,5 +1,30 @@
 ------------------------------------------------------------
 TAG
+Tag name: OverlayEvent-00-02-00, operation: add
+Package: OverlayEvent
+User: glastrm  Tue Mar 17 21:30:44 2009
+Files:
+  OverlayEvent/.cvsignore  1.1.1.1
+  OverlayEvent/ChangeLog  1.12
+  OverlayEvent/OverlayEvent/EventOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/CalOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/PtOverlay.h  1.1
+  OverlayEvent/OverlayEvent/GemOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/AcdOverlay.h  1.2
+  OverlayEvent/OverlayEvent/TkrOverlay.h  1.2
+  OverlayEvent/OverlayEvent/OverlayEventModel.h  1.2
+  OverlayEvent/OverlayEvent/SrcOverlay.h  1.1.1.1
+  OverlayEvent/cmt/.cvsignore  1.1.1.1
+  OverlayEvent/cmt/NMake  1.1.1.1
+  OverlayEvent/cmt/requirements  1.4
+  OverlayEvent/doc/release.notes  1.4
+  OverlayEvent/src/mainpage.h  1.1.1.1
+  OverlayEvent/src/OverlayEventModel.cpp  1.2
+  OverlayEvent/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: v0r2p0, operation: add
 Package: OverlayEvent
 User: usher  Tue Mar 17 21:11:21 2009
