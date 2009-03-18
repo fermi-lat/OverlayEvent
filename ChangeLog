@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Wed Mar 18 16:21:02 PDT 2009
+OverlayEvent/OverlayEvent
+
+Modified Files:
+	AcdOverlay.h 
+Log Message:
+Correctly define the bits... does not affect previous tags (fortunately)
+    *
+------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-00-02-00, operation: add
 Package: OverlayEvent
