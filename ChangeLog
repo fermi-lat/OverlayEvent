@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: usher  Tue Mar 17 21:01:45 PDT 2009
-OverlayEvent/OverlayEvent
-
-Modified Files:
-	AcdOverlay.h 
-Log Message:
-change the definitions of the status bits for AcdOverlay
-    *
-------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-00-01-00, operation: add
 Package: OverlayEvent
