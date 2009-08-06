@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: jrb  Wed Aug  5 18:50:49 PDT 2009
+OverlayEvent
+
+Modified Files:
+	.cvsignore 
+Added Files:
+	OverlayEventLib.py SConscript 
+Log Message:
+Add stuff for building with SCons
+
+    *
+------------------------------------------------------------
 User: heather  Wed Jul  1 09:19:02 PDT 2009
 OverlayEvent/doc
 
