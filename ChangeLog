@@ -1,4 +1,31 @@
 ------------------------------------------------------------
+TAG
+Tag name: OverlayEvent-00-02-02, operation: add
+Package: OverlayEvent
+User: usher  Tue Sep 15 12:26:03 2009
+Files:
+  OverlayEvent/.cvsignore  1.2
+  OverlayEvent/ChangeLog  1.24
+  OverlayEvent/SConscript  1.2
+  OverlayEvent/OverlayEventLib.py  1.1
+  OverlayEvent/OverlayEvent/EventOverlay.h  1.2
+  OverlayEvent/OverlayEvent/CalOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/PtOverlay.h  1.2
+  OverlayEvent/OverlayEvent/GemOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/AcdOverlay.h  1.3
+  OverlayEvent/OverlayEvent/TkrOverlay.h  1.2
+  OverlayEvent/OverlayEvent/OverlayEventModel.h  1.2
+  OverlayEvent/OverlayEvent/SrcOverlay.h  1.1.1.1
+  OverlayEvent/cmt/.cvsignore  1.1.1.1
+  OverlayEvent/cmt/NMake  1.1.1.1
+  OverlayEvent/cmt/requirements  1.6
+  OverlayEvent/doc/release.notes  1.7
+  OverlayEvent/src/mainpage.h  1.1.1.1
+  OverlayEvent/src/OverlayEventModel.cpp  1.2
+  OverlayEvent/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: usher  Tue Sep 15 12:25:30 PDT 2009
 OverlayEvent/doc
 
