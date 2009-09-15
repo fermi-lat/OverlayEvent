@@ -24,7 +24,7 @@ static const CLID& CLID_EventOverlay = InterfaceID("EventOverlay", 1, 0);
 * - trigger prescales
 * - flag if the prescale expired
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/EventOverlay.h,v 1.0 2008/08/15 04:47:49 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/EventOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 */
 namespace Event{
 
@@ -90,18 +90,18 @@ public:
     void setLivetime(double value) {m_livetime = value;}
 
 
-    unsigned int gleamEventFlags() const { return m_gleamEventFlags; }
+    unsigned int gleamEventFlags() const    { return m_gleamEventFlags; }
     void setGleamEventFlags(unsigned int f) { m_gleamEventFlags = f; }
-    void setTkrReconError() { m_gleamEventFlags |= enums::Gleam::TKRRECON; }
-    void setCalReconError() { m_gleamEventFlags |= enums::Gleam::CALRECON; }
-    void setAcdReconError() { m_gleamEventFlags |= enums::Gleam::ACDRECON; }
-    void setAnalysisNtupleError() { m_gleamEventFlags |= enums::Gleam::ANALYSISNTUPLE; }
-    bool goodEvent() { return (m_gleamEventFlags == 0); }
-    bool badEvent()  { return (m_gleamEventFlags != 0); }
-    bool badTkrRecon() { return (m_gleamEventFlags & enums::Gleam::TKRRECON); }
-    bool badAcdRecon() { return (m_gleamEventFlags & enums::Gleam::ACDRECON); }
-    bool badCalRecon() { return (m_gleamEventFlags & enums::Gleam::CALRECON); }
-    bool badAnalysisNtuple() { return (m_gleamEventFlags & enums::Gleam::ANALYSISNTUPLE); }
+    void setTkrReconError()                 { m_gleamEventFlags |= enums::Gleam::TKRRECON; }
+    void setCalReconError()                 { m_gleamEventFlags |= enums::Gleam::CALRECON; }
+    void setAcdReconError()                 { m_gleamEventFlags |= enums::Gleam::ACDRECON; }
+    void setAnalysisNtupleError()           { m_gleamEventFlags |= enums::Gleam::ANALYSISNTUPLE; }
+    bool goodEvent()                        { return (m_gleamEventFlags == 0); }
+    bool badEvent()                         { return (m_gleamEventFlags != 0); }
+    bool badTkrRecon()                      { return (m_gleamEventFlags & enums::Gleam::TKRRECON)       != 0; }
+    bool badAcdRecon()                      { return (m_gleamEventFlags & enums::Gleam::ACDRECON)       != 0; }
+    bool badCalRecon()                      { return (m_gleamEventFlags & enums::Gleam::CALRECON)       != 0; }
+    bool badAnalysisNtuple()                { return (m_gleamEventFlags & enums::Gleam::ANALYSISNTUPLE) != 0; }
  
     
     /// Serialize the object for writing
