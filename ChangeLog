@@ -1,13 +1,4 @@
 ------------------------------------------------------------
-User: usher  Tue Sep 15 12:23:09 PDT 2009
-OverlayEvent/OverlayEvent
-
-Modified Files:
-	EventOverlay.h PtOverlay.h 
-Log Message:
-Fixing linux compiler warnings
-    *
-------------------------------------------------------------
 User: jrb  Wed Aug  5 18:50:49 PDT 2009
 OverlayEvent
 
