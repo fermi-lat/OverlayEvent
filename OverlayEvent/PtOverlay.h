@@ -13,7 +13,7 @@
 * @class PtOverlay
 * @brief Overlay TDS for GEM data
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1 2009/03/16 17:19:44 usher Exp $
 */
 static const CLID& CLID_PtOverlay = InterfaceID("PtOverlay", 1, 0);
 
@@ -22,7 +22,7 @@ namespace Event {
 
 /** @class PtOverlay
   * @brief Local storage of Pt variables from input overlay event data
-  * $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
+  * $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1 2009/03/16 17:19:44 usher Exp $
 */
 class PtOverlay : public DataObject
 {
@@ -154,6 +154,8 @@ inline void PtOverlay::initPtOverlay(const double start,
     m_rad_geo        = rad_geo;
     m_ra_scz         = ra_scz;
     m_dec_scz        = dec_scz;
+    m_ra_scx         = ra_scx;
+    m_dec_scx        = dec_scx;
     m_zenith_scz     = zenith_scz;
     m_B              = B;
     m_L              = L;
