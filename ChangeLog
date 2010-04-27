@@ -1,31 +1,4 @@
 ------------------------------------------------------------
-User: usher  Tue Apr 27 13:33:55 PDT 2010
-OverlayEvent
-
-Modified Files:
-	SConscript 
-Log Message:
-Preparing to tag v0r3p0
-    *
-------------------------------------------------------------
-User: usher  Tue Apr 27 09:49:08 PDT 2010
-OverlayEvent/src
-
-Modified Files:
-	OverlayEventModel.cpp 
-Log Message:
-    *
-------------------------------------------------------------
-User: usher  Tue Apr 27 09:49:08 PDT 2010
-OverlayEvent/OverlayEvent
-
-Modified Files:
-	OverlayEventModel.h 
-Added Files:
-	DiagDataOverlay.h 
-Log Message:
-    *
-------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-00-02-02, operation: add
 Package: OverlayEvent
