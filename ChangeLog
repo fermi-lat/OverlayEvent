@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Thu Jun 10 17:39:35 PDT 2010
+GlastRelease-scons/OverlayEvent
+
+Modified Files:
+	.cvsignore SConscript 
+Log Message:
+updates for SCons build
+    *
+------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-00-03-00, operation: add
 Package: OverlayEvent
