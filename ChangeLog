@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Sat Jun 12 15:39:36 PDT 2010
+OverlayEvent
+
+Modified Files:
+	SConscript 
+Log Message:
+stag/GoGui_auto-tag
+    *
+------------------------------------------------------------
 User: jrb  Thu Jun 10 17:39:35 PDT 2010
 GlastRelease-scons/OverlayEvent
 
