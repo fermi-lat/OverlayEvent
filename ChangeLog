@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: heather  Fri May 20 08:53:07 PDT 2011
+OverlayEvent
+
+Modified Files:
+	SConscript 
+Log Message:
+CLHEP 2.1.0.1
+    *
+------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-00-03-01, operation: add
 Package: OverlayEvent
