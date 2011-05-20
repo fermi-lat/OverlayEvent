@@ -1,10 +1,11 @@
 /** @file release.notes
  @brief package OverlayEvent
 
-$Id: release.notes,v 1.8 2010/04/27 20:33:56 usher Exp $
+$Id: release.notes,v 1.9 2010/06/12 22:39:36 jrb Exp $
 @verbatim
 * EOH *
 
+ OverlayEvent-00-03-02 20-May-2011    hmk CLHEP 2.1.0.1
  OverlayEvent-00-03-01 12-Jun-2010    jrb upgrades for SCons builds
 27-Apr-10          v0r3p0  TU Add Diagnostic Data to the Overlay
 15-Sep-09          v0r2p2  TU Fix linux compiler warnings
