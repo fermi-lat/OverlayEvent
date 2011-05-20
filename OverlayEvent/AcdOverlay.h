@@ -2,7 +2,7 @@
 *
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/AcdOverlay.h,v 1.2 2009/03/18 04:01:45 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/AcdOverlay.h,v 1.3 2009/03/18 23:21:02 usher Exp $
 */
 
 #ifndef Event_AcdOverlay_H
@@ -19,6 +19,9 @@
 static const CLID& CLID_AcdOverlay = InterfaceID("AcdOverlay", 1, 0);
 
 namespace Event {
+
+typedef HepGeom::Point3D<double> HepPoint3D;
+
 
 /*!
 * \class AcdOverlay
