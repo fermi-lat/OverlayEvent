@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/SConscript,v 1.6 2011/05/20 15:53:07 heather Exp $
+# $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/SConscript,v 1.7 2011/05/21 20:10:44 heather Exp $
 # Authors: T.Usher <usher@slac.stanford.edu>
-# Version: OverlayEvent-00-03-03
+# Version: OverlayEvent-01-00-00
 Import('baseEnv')
 Import('listFiles')
 progEnv = baseEnv.Clone()
