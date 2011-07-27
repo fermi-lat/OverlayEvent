@@ -1,8 +1,9 @@
 /** @file release.notes
  @brief package OverlayEvent
 
-$Id: release.notes,v 1.4 2009/03/18 04:04:31 usher Exp $
+$Id: release.notes,v 1.5 2009/03/18 23:25:16 usher Exp $
 @verbatim
+27-Jul-11  OverlayEvent-00-02-01-gr01 HMK merge in SCons updates for P7
 18-Mar-09          v0r2p1  TU Correct bit definitions in AcdOverlay
 St Patty's Day '09 v0r2p0  TU Changed bit definitions for AcdOverlay
 16-Mar-09          v0r1p0  TU Added new data object to handle Pt* variables
