@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: heather  Wed Jul 27 07:42:05 PDT 2011
+OverlayEvent/cmt
+
+Modified Files:
+      Tag: GlastReleasev17r35p23
+	requirements 
+Log Message:
+really adding in SCons files
+    *
+------------------------------------------------------------
+User: heather  Wed Jul 27 07:42:05 PDT 2011
 OverlayEvent
 
 Added Files:
