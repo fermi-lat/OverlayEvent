@@ -1,5 +1,32 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-gr27, operation: add
+Package: OverlayEvent
+User: heather  Fri Apr 20 19:49:40 2012
+Files:
+  OverlayEvent/.cvsignore  1.1.1.1
+  OverlayEvent/ChangeLog  1.12
+  OverlayEvent/SConscript  1.8.2.1
+  OverlayEvent/OverlayEventLib.py  1.1.62.1
+  OverlayEvent/OverlayEvent/EventOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/CalOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/PtOverlay.h  1.1
+  OverlayEvent/OverlayEvent/GemOverlay.h  1.1.1.1
+  OverlayEvent/OverlayEvent/AcdOverlay.h  1.3
+  OverlayEvent/OverlayEvent/TkrOverlay.h  1.2
+  OverlayEvent/OverlayEvent/OverlayEventModel.h  1.2
+  OverlayEvent/OverlayEvent/SrcOverlay.h  1.1.1.1
+  OverlayEvent/cmt/.cvsignore  1.1.1.1
+  OverlayEvent/cmt/NMake  1.1.1.1
+  OverlayEvent/cmt/requirements  1.5.96.2
+  OverlayEvent/doc/release.notes  1.5.96.2
+  OverlayEvent/src/mainpage.h  1.1.1.1
+  OverlayEvent/src/OverlayEventModel.cpp  1.2
+  OverlayEvent/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-19-04-01-gr15, operation: add
 Package: OverlayEvent
 User: heather  Wed Apr 18 08:09:58 2012
