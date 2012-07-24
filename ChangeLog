@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: usher  Tue Jul 24 08:56:38 PDT 2012
+OverlayEvent/src
+
+Modified Files:
+	OverlayEventModel.cpp 
+Log Message:
+Forcing the header files to become part of the OverlayEvent library, include them in OverlayEventModel to force inclusion in the OverlayEvent library 
+
+    *
+------------------------------------------------------------
 User: usher  Tue Jul 24 08:56:02 PDT 2012
 OverlayEvent/cmt
 
