@@ -8,12 +8,13 @@
 #include "GaudiKernel/StreamBuffer.h"
 #include "GaudiKernel/ContainedObject.h"
 #include "GaudiKernel/ObjectVector.h"
+#include "GaudiKernel/IInterface.h"
 
 /**
 * @class PtOverlay
 * @brief Overlay TDS for GEM data
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1 2009/03/16 17:19:44 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.2 2009/09/15 19:23:09 usher Exp $
 */
 static const CLID& CLID_PtOverlay = InterfaceID("PtOverlay", 1, 0);
 
@@ -22,7 +23,7 @@ namespace Event {
 
 /** @class PtOverlay
   * @brief Local storage of Pt variables from input overlay event data
-  * $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.1 2009/03/16 17:19:44 usher Exp $
+  * $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/PtOverlay.h,v 1.2 2009/09/15 19:23:09 usher Exp $
 */
 class PtOverlay : public DataObject
 {

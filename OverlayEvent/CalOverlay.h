@@ -2,7 +2,7 @@
 *
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/CalOverlay.h,v 1.00 2008/08/15 04:47:49 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/CalOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 */
 
 #ifndef Event_CalOverlay_H
@@ -11,6 +11,7 @@
 //include files
 #include "GaudiKernel/ContainedObject.h"
 #include "GaudiKernel/ObjectVector.h"
+#include "GaudiKernel/IInterface.h"
 
 #include "idents/CalXtalId.h"
 #include "geometry/Point.h"

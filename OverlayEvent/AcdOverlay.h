@@ -2,7 +2,7 @@
 *
 * @author Tracy Usher
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/AcdOverlay.h,v 1.3 2009/03/18 23:21:02 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/AcdOverlay.h,v 1.4 2011/05/20 15:53:07 heather Exp $
 */
 
 #ifndef Event_AcdOverlay_H
@@ -11,6 +11,7 @@
 //include files
 #include "GaudiKernel/ContainedObject.h"
 #include "GaudiKernel/ObjectVector.h"
+#include "GaudiKernel/IInterface.h"
 
 #include "CLHEP/Geometry/Point3D.h"
 

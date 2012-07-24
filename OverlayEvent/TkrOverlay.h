@@ -2,7 +2,7 @@
 *
 * @author Leon Rochester
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/TkrOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/TkrOverlay.h,v 1.2 2008/12/07 17:01:39 usher Exp $
 */
 
 #ifndef Event_TkrOverlay_H
@@ -11,6 +11,7 @@
 //include files
 #include "GaudiKernel/ContainedObject.h"
 #include "GaudiKernel/ObjectVector.h"
+#include "GaudiKernel/IInterface.h"
 
 #include "idents/TowerId.h"
 #include "idents/GlastAxis.h"
