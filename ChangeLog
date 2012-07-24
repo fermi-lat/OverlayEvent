@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: usher  Tue Jul 24 08:56:02 PDT 2012
+OverlayEvent/cmt
+
+Modified Files:
+	requirements 
+Log Message:
+Forcing the header files to become part of the OverlayEvent library, modify requirements file to include the necessary packages
+
+    *
+------------------------------------------------------------
 User: usher  Tue Jul 24 08:55:25 PDT 2012
 OverlayEvent/OverlayEvent
 
