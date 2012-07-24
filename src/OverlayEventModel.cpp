@@ -1,5 +1,5 @@
 // File and Version Information:
-// $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/src/OverlayEventModel.cpp,v 1.3 2010/04/27 16:49:08 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/src/OverlayEventModel.cpp,v 1.4 2011/06/27 17:40:32 usher Exp $
 
 #define _OverlayEventModel_CPP_
 
@@ -8,6 +8,15 @@
 
 #include "OverlayEvent/OverlayEventModel.h"
 #include "GaudiKernel/ClassID.h"
+
+#include "OverlayEvent/EventOverlay.h"
+#include "OverlayEvent/SrcOverlay.h"
+#include "OverlayEvent/AcdOverlay.h"
+#include "OverlayEvent/TkrOverlay.h"
+#include "OverlayEvent/PtOverlay.h"
+#include "OverlayEvent/GemOverlay.h"
+#include "OverlayEvent/DiagDataOverlay.h"
+#include "OverlayEvent/CalOverlay.h"
 
 std::string OverlayEventModel::OverlayEventHeader = "/Overlay"; 
 
