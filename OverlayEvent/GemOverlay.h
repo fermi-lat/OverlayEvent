@@ -8,12 +8,13 @@
 #include "GaudiKernel/StreamBuffer.h"
 #include "GaudiKernel/ContainedObject.h"
 #include "GaudiKernel/ObjectVector.h"
+#include "GaudiKernel/IInterface.h"
 
 /**
 * @class GemOverlay
 * @brief Overlay TDS for GEM data
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/GemOverlay.h,v 1.00 2008/08/15 04:47:49 lsrea Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/GemOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 */
 static const CLID& CLID_GemOverlay = InterfaceID("GemOverlay", 1, 0);
 
@@ -151,7 +152,7 @@ private:
 
 /** @class Gem
   * @brief Local storage of GEM data
-  * $Header: /nfs/slac/g/glast/ground/cvs/GemOverlay/GemOverlay/Gem.h,v 1.14 2008/11/12 18:54:28 lsrea Exp $
+  * $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/GemOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
 */
 class GemOverlay : public DataObject
 {

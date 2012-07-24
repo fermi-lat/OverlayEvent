@@ -5,6 +5,7 @@
 #include "GaudiKernel/Kernel.h"
 #include "GaudiKernel/StreamBuffer.h"
 #include "GaudiKernel/DataObject.h"
+#include "GaudiKernel/IInterface.h"
 #include "Event/Utilities/TimeStamp.h"
 #include "Event/TopLevel/Definitions.h"
 #include "enums/EventFlags.h"
@@ -24,7 +25,7 @@ static const CLID& CLID_EventOverlay = InterfaceID("EventOverlay", 1, 0);
 * - trigger prescales
 * - flag if the prescale expired
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/EventOverlay.h,v 1.1.1.1 2008/12/01 19:21:52 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/OverlayEvent/OverlayEvent/EventOverlay.h,v 1.2 2009/09/15 19:23:09 usher Exp $
 */
 namespace Event{
 
