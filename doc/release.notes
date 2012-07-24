@@ -1,10 +1,11 @@
 /** @file release.notes
  @brief package OverlayEvent
 
-$Id: release.notes,v 1.12 2011/06/27 17:42:11 usher Exp $
+$Id: release.notes,v 1.13 2012/07/24 16:15:55 usher Exp $
 @verbatim
 * EOH *
 
+ OverlayEvent-01-00-02 24-Jul-2012    jrb patch for SCons
  OverlayEvent-01-00-01 24-Jul-2012    TU Small changes to force TDS objects to be part of this lib
  OverlayEvent-01-00-00 27-Jun-2011    TU  Modifications to enable multiple input streams
  OverlayEvent-00-03-03 21-May-2011    hmk patch requirements for CLHEP
