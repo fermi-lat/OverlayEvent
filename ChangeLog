@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: jrb  Tue Jul 24 13:33:37 PDT 2012
+GlastRelease-scons/OverlayEvent
+
+Modified Files:
+	OverlayEventLib.py 
+Log Message:
+add dependence on Gaudi
+    *
+------------------------------------------------------------
 TAG
 Tag name: OverlayEvent-01-00-01, operation: add
 Package: OverlayEvent
