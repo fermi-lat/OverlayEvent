@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Fri Dec  7 17:53:42 PST 2012
+OverlayEvent/OverlayEvent
+
+Modified Files:
+	PtOverlay.h 
+Log Message:
+Add variables
+
+    *
+------------------------------------------------------------
 TAG
 Tag name: GlastRelease-20-07-00, operation: add
 Package: OverlayEvent
