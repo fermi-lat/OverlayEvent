@@ -1,5 +1,33 @@
 ------------------------------------------------------------
 TAG
+Tag name: GlastRelease-17-35-24-lp49, operation: add
+Package: OverlayEvent
+User: heather  Thu Jul 18 11:05:29 2013
+Files:
+  OverlayEvent/.cvsignore  1.3
+  OverlayEvent/ChangeLog  1.193
+  OverlayEvent/SConscript  1.12
+  OverlayEvent/OverlayEventLib.py  1.3
+  OverlayEvent/OverlayEvent/PtOverlay.h  1.4
+  OverlayEvent/OverlayEvent/AcdOverlay.h  1.5
+  OverlayEvent/OverlayEvent/OverlayEventModel.h  1.3
+  OverlayEvent/OverlayEvent/CalOverlay.h  1.2
+  OverlayEvent/OverlayEvent/EventOverlay.h  1.3
+  OverlayEvent/OverlayEvent/GemOverlay.h  1.2
+  OverlayEvent/OverlayEvent/DiagDataOverlay.h  1.1
+  OverlayEvent/OverlayEvent/TkrOverlay.h  1.3
+  OverlayEvent/OverlayEvent/SrcOverlay.h  1.2
+  OverlayEvent/cmt/.cvsignore  1.1.1.1
+  OverlayEvent/cmt/NMake  1.1.1.1
+  OverlayEvent/cmt/requirements  1.16
+  OverlayEvent/doc/release.notes  1.16
+  OverlayEvent/src/mainpage.h  1.1.1.1
+  OverlayEvent/src/OverlayEventModel.cpp  1.5
+  OverlayEvent/src/test/testmain.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
+TAG
 Tag name: GlastRelease-17-35-24-lp48, operation: add
 Package: OverlayEvent
 User: heather  Thu Jul 18 10:25:33 2013
